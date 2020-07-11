@@ -1,19 +1,19 @@
-import Document from 'next/document'
-import { css } from '../css'
+import Document from "next/document";
+import { css } from "../css";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const originalRenderPage = ctx.renderPage
+    const originalRenderPage = ctx.renderPage;
 
     try {
-      let extractedStyles
+      let extractedStyles;
       ctx.renderPage = () => {
-        const { styles, result } = css.getStyles(originalRenderPage)
-        extractedStyles = styles
-        return result
-      }
+        const { styles, result } = css.getStyles(originalRenderPage);
+        extractedStyles = styles;
+        return result;
+      };
 
-      const initialProps = await Document.getInitialProps(ctx)
+      const initialProps = await Document.getInitialProps(ctx);
 
       return {
         ...initialProps,
@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
             ))}
           </>
         ),
-      }
+      };
     } finally {
     }
   }
