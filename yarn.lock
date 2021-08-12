@@ -1021,29 +1021,29 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.4.4.tgz#d94cbb3b354a07f1f5b80e554d6b9e34aba99e41"
   integrity sha512-9nKENeWRI6kQk44TbeqleIVtNLfcS3klVUepzl/ZCqzR5Bi06uqBCD277hdVvG/wL1pxA+R/pgJQLqnF5E2wPQ==
 
-"@stitches/css@5.0.0", "@stitches/css@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@stitches/css/-/css-5.0.0.tgz#ded98e2e8d13a2adebc7ff9b7ccca5bbe3e5f20f"
-  integrity sha512-iqFc6FkZgprY8P2smvSI1jnjTTb+nObgcSRQrOB3lAs2b6Svfe5yF5fH97XEN2w8pCSHcOx7HbOmfphCBrWoCQ==
+"@stitches/css@^9.0.0-alpha.8", "@stitches/css@latest":
+  version "9.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@stitches/css/-/css-9.0.0-alpha.8.tgz#272133a79baf33331ca66b4b0ced3ae71b916288"
+  integrity sha512-EuKpHng8yYqGxxkPy7IHtLgcdqnHVVtTajDHjxlGhiQeWqGIahYye3KPJnG7NFINhgyf3CpmcZGSJpTMnXU9DQ==
   dependencies:
     "@types/node" "^13.11.1"
     tslib "^1.11.1"
 
-"@stitches/styled@5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@stitches/styled/-/styled-5.2.1.tgz#db65feeef78e354d470f0e529f57a42de998bff8"
-  integrity sha512-QRmsya7BQSpCN3AFKbpxpJ4evY/7bxclGErKQPHZqvLg4MxVMyd7NkNjjv/n+Dv43dil9PimhPE/4TfyOKAGfQ==
+"@stitches/styled@latest":
+  version "9.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@stitches/styled/-/styled-9.0.0-alpha.8.tgz#93a9ca8736d0c599ad41ed6fe145c94e787a54b0"
+  integrity sha512-Wodt/XWRVSLDmYOBW8JsGu87NlAyoLq+ddHiPA+pSzIjoG7cAw/piPBqZNqrkvggrnU9bmQDB6sIOQ/tnh8aqQ==
   dependencies:
-    "@stitches/css" "^5.0.0"
+    "@stitches/css" "^9.0.0-alpha.8"
     "@types/node" "^13.11.1"
     tslib "^1.11.1"
 
-"@stitches/tailwind@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@stitches/tailwind/-/tailwind-5.0.0.tgz#e6992d6e0f90491f3fc588d2085e0cb91c94ee69"
-  integrity sha512-1bg/+/UhX45iOlXChfEM2sC6K+5lfDuo0AuEx7e2mf20ILQnKoOVtlCxStxxk5jxOpoeEbtEa7Qp9C4mpet7GQ==
+"@stitches/tailwind@latest":
+  version "9.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@stitches/tailwind/-/tailwind-9.0.0-alpha.8.tgz#912d08d507832d2fee155512e0b0549e88fc4e64"
+  integrity sha512-1AOA5mm4Z3v/GhgiscT09iE0bi4qL55zr/w1D7jhFf0weZQ8+0iaBZxe7/IyCYQZU2SUw+DPPhT1N8/w737wNA==
   dependencies:
-    "@stitches/css" "^5.0.0"
+    "@stitches/css" "^9.0.0-alpha.8"
     "@types/node" "^13.11.1"
     react-polymorphic-box "^1.1.0"
     tslib "^1.11.1"
@@ -4278,9 +4278,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 pbkdf2@^3.0.3:
   version "3.1.1"
